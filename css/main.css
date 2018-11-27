@@ -72,26 +72,28 @@ input[type="email"],
 input[type="tel"],
 textarea,
 select {
-  border: 1px solid #cfd3d68c;
+  border: 1px solid #dfe6e9;
   border-radius: 2px;
   font-size: 1.1em;
+  text-align:right;
   height: auto;
   margin-top: 10px;
   outline: 0;
   padding: 15px;
   width: 100%;
-  background: #cfd3d68c;
+  background: #dfe6e9;
   color: #9CA1A6;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out;
 }
-
+  
 input:focus,
 select:focus,
 textarea:focus {
-   border: 2px solid rgba(70,105,139,1.00);
-   box-shadow: 0 0 4px 1px rgba(70,105,139,1.00);
-   background-color: #fff;
+ border: 2px solid rgba(70,105,139,1.00);
+ box-shadow: 0 0 4px 1px rgba(70,105,139,1.00);
+ background-color: #fff;
+ text-align:left;
 }
 
 input[type="radio"],
@@ -172,5 +174,4 @@ input,
 fieldset input[id="area"] {
   flex:  0  40%;
 }
-
 }
