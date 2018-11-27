@@ -157,6 +157,10 @@ button {
   margin-bottom: 10px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
