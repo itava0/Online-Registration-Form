@@ -47,6 +47,22 @@ header  {
   font-weight: 400;
 }
 
+hr {
+  margin-bottom: 20px;
+}
+
+.hr-style {
+  border-top: 5px #2D3945 solid;
+  height: 10px;
+  border-bottom: 2px #2D3945 solid;
+  border-left: 0;
+  border-right: 0;
+}
+
+.hr-2-style {
+  border: 1px solid #2D3945;
+}
+
 /* ================================= 
   Base Styles
 ==================================== */
